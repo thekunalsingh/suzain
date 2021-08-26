@@ -1,0 +1,17 @@
+{
+    "name": "suzain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "suzain"
+    },
+    "keywords": [
+        "suzain"
+    ],
+    "author": "KUNAL",
+    "license": "ISC",
+    "dependencies": {
+        "python-shell": "^1.0.8"
+    }
+}

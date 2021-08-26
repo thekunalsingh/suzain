@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: #353535;
+    align-self: stretch;
+    -webkit-app-region: drag;
+}
+
+#content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+    align-items: center;
+}
+
+#text {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.option {
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.option:hover {
+    background: red;
+}
